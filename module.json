@@ -1,5 +1,6 @@
 {
   "name": "character-cam",
+  "id": "character-cam",
   "title": "Character Cam",
   "description": "Automatically follows a selected character's movement with the camera",
   "version": "1.0.0",
