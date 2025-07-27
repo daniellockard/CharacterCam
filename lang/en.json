@@ -1,0 +1,22 @@
+{
+  "CHARACTER_CAM": {
+    "SETTINGS": {
+      "ENABLED": "Enable Camera Following",
+      "ENABLED_HINT": "Enable automatic camera following of selected character",
+      "TARGET_ACTOR": "Target Character",
+      "TARGET_ACTOR_HINT": "Select which character the camera should follow",
+      "SMOOTH_FOLLOW": "Smooth Camera Movement",
+      "SMOOTH_FOLLOW_HINT": "Enable smooth camera transitions instead of instant snapping",
+      "FOLLOW_DISTANCE": "Follow Distance",
+      "FOLLOW_DISTANCE_HINT": "Distance from the character to maintain (in grid units)"
+    },
+    "NOTIFICATIONS": {
+      "FOLLOWING_STARTED": "Camera following started",
+      "FOLLOWING_STOPPED": "Camera following stopped",
+      "NO_TARGET_SELECTED": "No target character selected for camera following",
+      "TOKEN_NOT_FOUND": "No token found for actor {actorId} in the current scene",
+      "TARGET_DELETED": "Target token was deleted, stopping camera following",
+      "ACTOR_DELETED": "Target actor was deleted, stopping camera following"
+    }
+  }
+} 

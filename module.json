@@ -1,0 +1,25 @@
+{
+  "name": "character-cam",
+  "title": "Character Cam",
+  "description": "Automatically follows a selected character's movement with the camera",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "minimumCoreVersion": "13",
+  "compatibleCoreVersion": "13",
+  "esmodules": [
+    "scripts/character-cam.js"
+  ],
+  "styles": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "MIT",
+  "readme": "README.md"
+} 
