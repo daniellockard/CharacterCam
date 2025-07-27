@@ -178,17 +178,9 @@ class CharacterCam {
     };
 
     if (smoothFollow) {
-      // Smooth camera movement
-      const currentPosition = canvas.stage.position;
-      const lerpFactor = 0.1; // Smoothing factor
-      
-      const newX = currentPosition.x + (targetPosition.x - currentPosition.x) * lerpFactor;
-      const newY = currentPosition.y + (targetPosition.y - currentPosition.y) * lerpFactor;
-      
-      canvas.stage.position.set(newX, newY);
+      canvas.animatePan({ x: targetPosition.x, y: targetPosition.y });
     } else {
-      // Instant camera movement
-      canvas.stage.position.set(targetPosition.x, targetPosition.y);
+      canvas.pan({ x: targetPosition.x, y: targetPosition.y });
     }
   }
 

@@ -1,6 +1,6 @@
 {
+"id": "character-cam",
   "name": "character-cam",
-  "id": "character-cam",
   "title": "Character Cam",
   "description": "Automatically follows a selected character's movement with the camera",
   "version": "1.0.0",
@@ -19,8 +19,8 @@
     }
   ],
   "url": "",
-  "manifest": "https://raw.githubusercontent.com/daniellockard/CharacterCam/refs/tags/0.0.1/module.json",
-  "download": "https://github.com/daniellockard/CharacterCam/archive/refs/tags/0.0.1.zip",
+  "manifest": "https://raw.githubusercontent.com/daniellockard/CharacterCam/main/module.json",
+  "download": "https://github.com/daniellockard/CharacterCam/archive/refs/heads/main.zip",
   "license": "MIT",
   "readme": "README.md"
 } 
